@@ -131,25 +131,36 @@ const Home = () => {
                 </motion.div>
 
                 <motion.div variants={itemVariants}>
-                  <Typography 
-                    variant="body1" 
-                    sx={{ 
-                      color: 'rgba(255, 255, 255, 0.9)',
-                      maxWidth: '600px',
-                      fontSize: '1.1rem',
-                      lineHeight: 1.8
-                    }}
-                  >
-                    Passionate about creating responsive and user-friendly web applications.
-                    Currently pursuing B.Tech in Electronics and Communication Engineering.
-                  </Typography>
+               <Typography 
+  variant="body1" 
+  sx={{ 
+    color: 'rgba(255, 255, 255, 0.9)',
+    maxWidth: '600px',
+    fontSize: '1.1rem',
+    lineHeight: 1.8
+  }}
+>
+  Frontend Developer with ~3 years of experience in building scalable dashboards, SaaS platforms, and marketplace applications using React.js and the MERN stack.  
+
+  Experienced in developing real-world applications with API integration, authentication systems, and responsive UI design. Focused on writing clean, maintainable code and delivering user-friendly solutions.
+</Typography>
+<Typography 
+  variant="body2"
+  sx={{ 
+    color: '#a78bfa',
+    fontWeight: 600,
+    mt: 1
+  }}
+>
+  🚀 Open to new opportunities | Available for immediate joining
+</Typography>
                 </motion.div>
 
                 <motion.div variants={itemVariants}>
                   <Stack direction="row" spacing={2} sx={{ mb: 4 }}>
                     {[
                       { icon: GitHubIcon, url: 'https://github.com/rajkumarkushi', label: 'GitHub' },
-                      { icon: LinkedInIcon, url: 'https://linkedin.com/in/your-linkedin', label: 'LinkedIn' },
+                      { icon: LinkedInIcon, url: 'https://www.linkedin.com/in/rajkumar-e-866733222/', label: 'LinkedIn' },
                       { icon: EmailIcon, url: 'mailto:rajkumarkushi864@gmail.com', label: 'Email' }
                     ].map((social, index) => (
                       <motion.div
@@ -184,21 +195,12 @@ const Home = () => {
                     spacing={2}
                   >
                     <Button
-                      variant="contained"
-                      size="large"
-                      href="#projects"
-                      sx={{
-                        background: 'linear-gradient(45deg, #7c3aed 30%, #a78bfa 90%)',
-                        px: 4,
-                        py: 1.5,
-                        '&:hover': {
-                          transform: 'translateY(-2px)',
-                          boxShadow: '0 10px 25px rgba(124, 58, 237, 0.4)'
-                        }
-                      }}
-                    >
-                      View Projects
-                    </Button>
+  variant="contained"
+  size="large"
+  href="#projects"
+>
+  View My Work
+</Button>
                     <Button
                       variant="outlined"
                       size="large"

@@ -148,8 +148,13 @@ const About = () => {
                         fontSize: '1.1rem'
                       }}
                     >
-                     Frontend Developer with ~3 years of experience building dashboards, SaaS platforms, and marketplace applications using React.js. Skilled in developing scalable UI, integrating APIs, and implementing authentication systems. Passionate about building real-world applications with clean and responsive design.
+Frontend Developer with ~3 years of experience in building scalable dashboards, SaaS platforms, and marketplace applications using React.js and the MERN stack.
 
+Started my journey with hands-on learning and internship experience, and later worked in a startup environment where I contributed to real-world applications including admin dashboards, e-commerce platforms, and multi-role systems.
+
+Experienced in developing reusable UI components, integrating REST APIs, implementing authentication (JWT), and working closely with backend teams to deliver end-to-end features.
+
+Passionate about building clean, responsive, and user-focused applications, with a strong focus on performance and real-world usability.
                     </Typography>
                    
                   </Paper>

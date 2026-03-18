@@ -133,11 +133,7 @@ const Projects = () => {
           title: "Home Page",
           description: "Main landing page showing featured tractors and search filters"
         },
-        {
-          img: "/images/projects/tractors24/dealer-dashboard.png",
-          title: "Dealer Dashboard",
-          description: "dealer dashboared for tractor dealers to upload new tractors to the customer dashboard"
-        },
+        
         {
           img: "/images/projects/tractors24/brands.png",
           title: "Location Filter",
@@ -148,6 +144,11 @@ const Projects = () => {
           title: "Product Details",
           description: "deatailed view of tractors available districts loacation wise"
         }
+        ,{
+          img: "/images/projects/tractors24/footer.png",
+          title: "Dealer Dashboard",
+          description: "dealer dashboared for tractor dealers to upload new tractors to the customer dashboard"
+        },
       ], technologies: ["React.js", "Material UI", "Firebase", "Firestore"],
       features: ["Location-based filtering", "Dealer dashboard", "Real-time updates"],
       github: "https://github.com/rajkumarkushi/tractors-24.git",
