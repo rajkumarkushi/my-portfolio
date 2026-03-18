@@ -32,11 +32,14 @@ const About = () => {
 
   const skills = [
     { name: 'React', level: 90 },
-    { name: 'JavaScript', level: 85 },
+        { name: 'JavaScript', level: 85 },
+    { name: 'Nextjs', level: 85 },
     { name: 'TypeScript', level: 80 },
     { name: 'Node.js', level: 75 },
     { name: 'Python', level: 70 },
+            { name: 'Mongo db', level: 85 },
     { name: 'SQL', level: 65 },
+
   ];
 
   return (

@@ -700,19 +700,25 @@ const Projects = () => {
                               >
                                 Code
                               </Button>
-                              <Button 
-                                startIcon={<LaunchIcon />}
-                                href={project.live}
-                                target="_blank"
-                                sx={{ 
-                                  color: 'white',
-                                  '&:hover': {
-                                    backgroundColor: 'rgba(255, 255, 255, 0.1)'
-                                  }
-                                }}
-                              >
-                                Live Demo
-                              </Button>
+                            <Button 
+  variant="contained"
+  startIcon={<LaunchIcon />}
+  href={project.live}
+  target="_blank"
+  sx={{ 
+    backgroundColor: '#6366f1',
+    color: 'white',
+    fontWeight: 'bold',
+    borderRadius: '8px',
+    textTransform: 'none',
+    '&:hover': {
+      backgroundColor: '#4f46e5',
+      transform: 'scale(1.05)',
+    }
+  }}
+>
+  View Live
+</Button>
                             </CardActions>
                           </Card>
                         </motion.div>
