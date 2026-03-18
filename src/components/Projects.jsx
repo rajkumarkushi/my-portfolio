@@ -151,9 +151,36 @@ const Projects = () => {
       ], technologies: ["React.js", "Material UI", "Firebase", "Firestore"],
       features: ["Location-based filtering", "Dealer dashboard", "Real-time updates"],
       github: "https://github.com/rajkumarkushi/tractors-24.git",
-      live: "https://tractors-24.web.app",
+      live: "https://tractors24.in/",
       color: "#3b82f6"
     },
+    {
+  title: "Spa Management Dashboard",
+  description: "Multi-role dashboard for managing services, staff, and customer bookings with real-time data tracking.",
+  image: "/images/projects/Ody-spa/main.png",
+  screenshots: [
+    {
+      img: "/images/projects/Ody-spa/main.png",
+      title: "Dashboard Overview",
+      description: "Admin dashboard showing business insights and service overview"
+    },
+    {
+      img: "/images/projects/Ody-spa/services.png",
+      title: "Services Management",
+      description: "View and manage available spa services"
+    },
+    {
+      img: "/images/projects/Ody-spa/staff.png",
+      title: "Staff Management",
+      description: "Track staff availability and schedules"
+    }
+  ],
+  technologies: ["Next.js", "Tailwind CSS", "REST APIs"],
+  features: ["Multi-role dashboards", "Service tracking", "Responsive UI"],
+  github: "https://github.com/rajkumarkushi/spa-dashboard",
+  live: "https://odyluxuriousspa.com",
+  color: "#10b981"
+},
     {
       title: "Gym Management System",
       description: "Comprehensive gym management solution with multiple dashboards for staff, trainers, and dieticians.",

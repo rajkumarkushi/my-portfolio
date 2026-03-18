@@ -145,22 +145,10 @@ const About = () => {
                         fontSize: '1.1rem'
                       }}
                     >
-                      I am a passionate web developer with a strong foundation in both frontend and backend technologies. 
-                      My journey in web development started with a curiosity about how websites work, which led me to 
-                      explore various technologies and frameworks.
+                     Frontend Developer with ~3 years of experience building dashboards, SaaS platforms, and marketplace applications using React.js. Skilled in developing scalable UI, integrating APIs, and implementing authentication systems. Passionate about building real-world applications with clean and responsive design.
+
                     </Typography>
-                    <Typography 
-                      variant="body1" 
-                      sx={{ 
-                        color: 'rgba(255, 255, 255, 0.9)',
-                        lineHeight: 1.8,
-                        fontSize: '1.1rem',
-                        mt: 2
-                      }}
-                    >
-                      Currently pursuing my B.Tech in Electronics and Communication Engineering, I combine my technical 
-                      knowledge with creative problem-solving skills to build responsive and user-friendly web applications.
-                    </Typography>
+                   
                   </Paper>
                 </motion.div>
               </Grid>
